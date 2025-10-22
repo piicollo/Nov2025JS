@@ -32,30 +32,58 @@
 
 // Arrays 
 
-const userId = [1234, 1245, 12455];
+// const userId = [1234, 1245, 12455];
 
-console.log(userId);
-console.log(typeof userId);
+// console.log(userId);
+// console.log(typeof userId);
 
 
 // Objects 
-let studentsName = {
-    name: "Kapil Rai",
-    faculty: "BCS",
-    email: "BCS2440"
-}
+// let studentsName = {
+//     name: "Kapil Rai",
+//     faculty: "BCS",
+//     email: "BCS2440"
+// }
 
-console.log(studentsName);
+// console.log(studentsName);
 
-// Functions In Java Script
+// // Functions In Java Script
 
-const myFunction = function() {
-    console.log("Hello World! ");
+// const myFunction = function() {
+//     console.log("Hello World! ");
     
+// }
+
+// myFunction()
+// console.log("\n");
+
+
+// console.log(typeof myFunction);
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let userNames = "helloMadam";
+
+let studentName = userNames ;
+
+studentName = "studentName11";
+
+console.log(userNames);
+console.log(studentName);
+// In Stack memory data is copied to another value
+
+let nameOfusers = {
+    name : "Hitesh",
+    userId: 1245,
+    mail: "hitesh@MediaList.com"
 }
 
-myFunction()
-console.log("\n");
+console.log(nameOfusers);
 
+let nameOfuser = nameOfusers;
 
-console.log(typeof myFunction);
+nameOfusers.mail = "xyz@mail.com";
+
+console.log(nameOfusers.mail);
+console.log(nameOfuser.mail);
+// In heap memory value always changed but can't get copy

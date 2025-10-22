@@ -1,6 +1,6 @@
 console.log("Hello World! ");
 
-const customerId = 14533;
+const customerId = 14533; 
 let customerName = "Kapil Rai";
 var customerAddress = "Dhankuta";
 let customerMail;
