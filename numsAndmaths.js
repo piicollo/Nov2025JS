@@ -25,6 +25,10 @@
 
 // console.log(hundreds.toLocaleString('en-IN')); // 10,00,00,000
 
+// let numpy = 123.4545;
+
+// console.log(numpy.toPrecision(4)); // 123.5
+
 // ++++++++++++++++++++++++++++++++ Maths +++++++++++++++++++++++++++++++++++
 
 // console.log(Math);
@@ -39,4 +43,9 @@
 // console.log(Math.min(4, 5, 6, 8, 2));
 
 console.log(Math.random());
-console.log(Math.random());
+console.log(Math.floor(Math.random() * 10) + 1);
+
+const min = 10;
+const max = 20;
+
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
