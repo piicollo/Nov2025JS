@@ -53,17 +53,56 @@
 
 // slice & splice method in Array
 
-const myArr = new Array(0, 1, 2, 3, 4, 5)
+// const myArr = new Array(0, 1, 2, 3, 4, 5)
 
-console.log("A: ", myArr);
+// console.log("A: ", myArr);
 
-console.log("Slice: ", myArr.slice(1, 3)); // show copy form
+// console.log("Slice: ", myArr.slice(1, 3)); // show copy form
 
-console.log("Splice: ", myArr.splice(1, 3)); // Changes array values or replace it
+// console.log("Splice: ", myArr.splice(1, 3)); // Changes array values or replace it
 
-console.log("B: ", myArr);
-
-
+// console.log("B: ", myArr);
 
 
+// const myStr = ["Hi", "Hello", "My", "Mine", "Our"];
 
+// const myBoolen = ["True", "Fasle", "Null"];
+
+// const myNums = [1, 2, 3, 4, 5,];
+
+// myStr.push(myNums) // sixth element of an array
+
+// myNums.push(myBoolen); // sixth element of an array
+// // console.log(myStr);
+// console.log(myStr[5]); // myNums and myBoolen in sixth element of an array
+
+// console.log(myStr.concat(myBoolen));
+
+// const myAll = myStr.concat(myNums)
+// console.log(myAll);
+
+// Spread Operator
+
+// const myAllArr = [...myStr, ...myBoolen, ...myNums]
+// console.log(myAllArr);
+
+// const studentName = ["Kapil", "Ram", ["Shyam", "Hari", "Geeta"], "Seeta",["Shyamu", "Harka",["Balen", "Alen"]]];
+
+// const newStudentArray = studentName.flat(Infinity);
+
+// // console.log(studentName);
+// // console.log("\n");
+// console.log(newStudentArray);
+
+console.log(Array.isArray("Kamala"));
+console.log(Array.from("Kamala"));
+console.log(Array.from({name: "Kamala"})); // empty array ++ Interesting Array ++
+
+let stdOne = "Hema";
+let stdTwo = "Geeta";
+let stdThree = "Seema";
+let stdFour = "Hem";
+
+console.log(Array.of(stdOne, stdTwo, stdThree, stdFour));
+
+// Array.of || Array.isArray || Array.from
