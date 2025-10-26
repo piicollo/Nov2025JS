@@ -69,18 +69,63 @@
 // console.log(fruits[1]); // calling index numer 1 that is banana
 
 
-let a = '9';
-let b = '4';
+// let a = '9';
+// let b = '4';
 
-console.log(typeof a);
-console.log(typeof b);
+// console.log(typeof a);
+// console.log(typeof b);
 
-// console.log(a * Number('4'));
-console.log(a + b);
+// // console.log(a * Number('4'));
+// console.log(a + b);
 
-console.log(a * b);
+// console.log(a * b);
 
-let c = 2;
-let d = 5;
+// let c = 2;
+// let d = 5;
 
-console.log(c * d);
+// console.log(c * d);
+
+// const numbers = [10, 20, 30, 40];
+// const firstTwo = numbers.splice(0, 2);
+
+// console.log(firstTwo); // fisrtTwo will be [10, 20]
+
+// const person = {
+//     name: 'Alice',
+//     age: 30
+// };
+
+// const { name, ...rest } = person; // object destructuring assignment that extract valeu of name that is 'Alice'
+
+// console.log(rest); // age
+
+
+// console.log(null == undefined);
+// console.log(null === undefined);
+// console.log("\n");
+
+// console.log(typeof null);
+// console.log(typeof undefined);
+
+// let x = '9';
+// let y = '5';
+
+// console.log(x - y); // 4
+
+// let list = [1, 2, 3];
+
+// if (list.length > 0) {
+//     console.log("True");
+// }
+// else {
+//     console.log("False");
+    
+// }
+// // output : True
+
+// let x = 10;
+// let y = x++; // 10
+
+// console.log(y);
+
+console.log(typeof null); // object
