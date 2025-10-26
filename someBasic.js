@@ -17,12 +17,70 @@
 // console.log(a === c); // false (a is string and c is number so, it strictly judged it and not the same value)
 // console.log(e == f); // loosly equal that means it converts as same number
 
-let c = {
-    greetings: "hey!"
-};
+// let c = {
+//     greetings: "hey!"
+// };
 
-let d ;
-d = c;
-c.greetings = 'Hello';
+// let d ;
+// d = c;
+// c.greetings = 'Hello';
 
-console.log(d.greetings);
+// console.log(d.greetings);
+
+// function User(name) {
+//     this.name = name;
+
+// }
+
+// const u1 = new User('Alice');
+
+// const u2 = User('Bob');
+
+// console.log(u1); // User {name: 'Alice'}
+// console.log(u2); // undefined
+
+
+// let count = 10;
+// let step = "5";
+
+// console.log(
+//     count + parseInt(step)
+// );
+
+// let num1 = "2";
+// let num2 = 12;
+// const str = "abe123"
+
+// console.log(parseInt(num1)); // 2 as number or integer
+// console.log(parseInt(num1) + num2); // 14 converting "2" string into a number 
+// console.log(parseInt(str) + num2); // NaN (Not a number)
+
+// let number = 0;
+// console.log(number++); // output is 0 but is incremented to 1
+// console.log(++number); // 1 + 1 that is 2
+// console.log(number); // 2
+
+// let fruits = [
+//     "Apple", // 0
+//     "Banana", //1
+//     "Chhery" // 2
+// ]
+
+// console.log(fruits[1]); // calling index numer 1 that is banana
+
+
+let a = '9';
+let b = '4';
+
+console.log(typeof a);
+console.log(typeof b);
+
+// console.log(a * Number('4'));
+console.log(a + b);
+
+console.log(a * b);
+
+let c = 2;
+let d = 5;
+
+console.log(c * d);
