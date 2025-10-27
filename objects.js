@@ -94,20 +94,20 @@
 // console.log(regularUser.fullName.userFullName.firstName); // Hem
 // console.log(regularUser.fullName.userFullName); // { firstName: 'Hem', lastName: 'Khatri' }
 
-const obj1 = {
-    1: "a",
-    2: "b"
-}
+// const obj1 = {
+//     1: "a",
+//     2: "b"
+// }
 
-const obj2 = {
-    3: "a",
-    4: "b"
-}
+// const obj2 = {
+//     3: "a",
+//     4: "b"
+// }
 
-const obj3 = {
-    5: "c",
-    6: "d"
-}
+// const obj3 = {
+//     5: "c",
+//     6: "d"
+// }
 // const obj4 = {obj1, obj2}
 // console.log(obj4); // { obj1: { '1': 'a', '2': 'b' }, obj2: { '3': 'a', '4': 'b' } }
 
@@ -139,12 +139,12 @@ const obj3 = {
 // ]
 // console.log(users[2].email)
 
-const userTwo = {
-    username: "hema22",
-    email: "hema22@mail.com",
-    phone: 984566666,
-    isLoggedIn: true
-}
+// const userTwo = {
+//     username: "hema22",
+//     email: "hema22@mail.com",
+//     phone: 984566666,
+//     isLoggedIn: true
+// }
 
 // console.log(userTwo);
 // console.log("\n");
@@ -153,7 +153,56 @@ const userTwo = {
 // console.log(Object.values(userTwo)); // [ 'hema22', 'hema22@mail.com', 984566666, false ] Array
 // console.log("\n");
 // console.log(Object.entries(userTwo)); // Output: arrays inside array
-console.log(userTwo.hasOwnProperty('isLoggedIn'));
-console.log(userTwo.hasOwnProperty('isLogged'));
+// console.log(userTwo.hasOwnProperty('isLoggedIn'));
+// console.log(userTwo.hasOwnProperty('isLogged'));
+
+// Object de-structuring and JSON API Intro
+
+// There are destructuring of Array and Object
+
+// const studentInfo = {
+        // keys: values
+//     // name: "Kapil Rai",
+//     // lastName: "Rai",
+//     id: '123MGMT',
+//     eMail: 'kapil@mail.com',
+//     tel: 9812345622,
+// }
+// Basic Destructuring 
+// const { name, id } = studentInfo;
+
+// console.log(name);
+// console.log(id);
+
+// Rename Variables During Destructuring
+// const { name: fullName, id: stdId} = studentInfo;
+
+// console.log(fullName);
+// console.log(stdId);
+
+// Set Default Values
+// Default value is used only if object key is missing 
+// If it is on that object than first value will appeat in output
+
+// const { job = "Web Developer", eMail} = studentInfo;
+
+// const { location = "Dhankuta" } = studentInfo;
+
+// const { name = "Radheshyam Tiwari"} = studentInfo; 
+
+// console.log(job);
+// console.log(eMail);
+// console.log(location);
+// console.log(name);
 
 
+// Short Intro of API (Application Programming Interface)
+// API is created by JSON
+// Google it randomuser me api
+// JSON Formatter
+// {
+//     "fullName" : "Kapil Rai",
+//     "stdId" : "123MGMT",
+//     "eMail" : "kapil@mail.com",
+//     "phone" : 9842304470
+// }
