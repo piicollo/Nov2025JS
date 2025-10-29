@@ -128,4 +128,27 @@
 
 // console.log(y);
 
-console.log(typeof null); // object
+// console.log(typeof null); // object
+
+const userInfo = {
+    firstName: "Kapil",
+    lastName: "Rai",
+    eMail: 'kapil@mail.com',
+    phone: "+9779810402403",
+    userName: "kapil1234"
+}
+
+// console.log(userInfo);
+// userInfo.lastName = "Chharahang" // Changing the value of key
+// console.log(userInfo.lastName);
+
+// console.log(userInfo);
+
+const person = Object.create(userInfo);
+person.fisrtName = "Ram";
+person.lastName = "Khatri";
+person.userName = "ramkhatri1234";
+
+console.log(person);
+
+console.log(userInfo);
