@@ -130,13 +130,13 @@
 
 // console.log(typeof null); // object
 
-const userInfo = {
-    firstName: "Kapil",
-    lastName: "Rai",
-    eMail: 'kapil@mail.com',
-    phone: "+9779810402403",
-    userName: "kapil1234"
-}
+// const userInfo = {
+//     firstName: "Kapil",
+//     lastName: "Rai",
+//     eMail: 'kapil@mail.com',
+//     phone: "+9779810402403",
+//     userName: "kapil1234"
+// }
 
 // console.log(userInfo);
 // userInfo.lastName = "Chharahang" // Changing the value of key
@@ -144,11 +144,42 @@ const userInfo = {
 
 // console.log(userInfo);
 
-const person = Object.create(userInfo);
-person.fisrtName = "Ram";
-person.lastName = "Khatri";
-person.userName = "ramkhatri1234";
+// const person = Object.create(userInfo);
+// person.fisrtName = "Ram";
+// person.lastName = "Khatri";
+// person.userName = "ramkhatri1234";
 
-console.log(person);
+// console.log(person);
 
-console.log(userInfo);
+// console.log(userInfo);
+
+// let  = ();
+// let total = 0;
+
+// function add(num) {
+//     total = total + num;
+//     return total;
+// }
+
+// add(10);
+// add(20);
+
+// console.log(total);
+
+// console.log(parseInt("15") + 5); // Take string value and return value as integer
+// console.log(parseInt("Kapil" + 5)); // NaN
+
+// console.log(parseFloat("2.85") + 12); // 14.85
+// console.log(Number("Kapil")); // NaN
+// console.log(Number("142")); // 142
+// console.log(Number("14.5")); // 14.5
+// console.log(parseFloat('14.5') + 12.25); // 26.75
+
+// console.log(parseFloat('14.23px')); // 14.23
+
+// console.log(parseFloat('12.33cm') + parseFloat('13.22px')); // 25.55
+
+// console.log(parseFloat('12.33m') + ""); // 12.33
+
+// console.log(parseFloat('')); // Empty string known as NaN
+
