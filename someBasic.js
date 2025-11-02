@@ -183,3 +183,19 @@
 
 // console.log(parseFloat('')); // Empty string known as NaN
 
+// let num = "Hello";
+// let num1 = new String("15"); 
+// console.log(num1); // [Strings: '15']
+// console.log(typeof num1); // object
+
+// let x = "Hi";
+// console.log(x * 3); // NaN
+
+let num = "12";
+let num1 = "12"
+let num3 = "Hello"
+console.log(num * 12);
+console.log(num1 / 2);
+console.log(num3 + " Hello");
+console.log(num * num3);
+
