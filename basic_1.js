@@ -34,7 +34,15 @@
 
 // console.log("name");
 
-let userOne = "Ramu Shrestha";
-console.log(`First User Name: ${userOne}`);
-userOne = "Hem Kumar";
-console.log(`User Name After Change: ${userOne}`);
+// Replacing the assigned value 
+// let userOne = "Ramu Shrestha";
+// console.log(`First User Name: ${userOne}`);
+// userOne = "Hem Kumar";
+// console.log(`User Name After Change: ${userOne}`);
+
+// let name = 'Kapil Rai';
+// let str = "12345";
+
+// console.log(`Full Name: ${name} \n ID: ${str}`);
+
+

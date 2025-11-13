@@ -194,8 +194,8 @@
 let num = "12";
 let num1 = "12"
 let num3 = "Hello"
-console.log(num * 12);
-console.log(num1 / 2);
-console.log(num3 + " Hello");
-console.log(num * num3);
-
+console.log(num * 12); // 144
+console.log(num1 / 2); // 6
+console.log(num3 + " Hello"); // Hello Hello
+console.log(num * num3); // NaN
+ 
