@@ -191,11 +191,41 @@
 // let x = "Hi";
 // console.log(x * 3); // NaN
 
-let num = "12";
-let num1 = "12"
-let num3 = "Hello"
-console.log(num * 12); // 144
-console.log(num1 / 2); // 6
-console.log(num3 + " Hello"); // Hello Hello
-console.log(num * num3); // NaN
+// let num = "12";
+// let num1 = "12"
+// let num3 = "Hello"
+// console.log(num * 12); // 144
+// console.log(num1 / 2); // 6
+// console.log(num3 + " Hello"); // Hello Hello
+// console.log(num * num3); // NaN
  
+// Declaring function
+// Regular function (Named Function)
+// function userName() {
+//     console.log("shyam021");
+    
+// }
+
+// userName() // shyam021
+
+// function secondUser() {
+//     console.log("user2025"); // Prints to the console
+//     return `user244`; // Returns a value that can be stored in variables
+    
+// }
+
+// let userTwo = secondUser()
+// console.log(userTwo);
+
+// function gameName() {
+//     console.log(`PUBG`);
+// }
+
+// gameName()
+
+function gameName2() {
+    return "Call of Duty";
+}
+
+let game = gameName2();
+console.log(`Popular Game: ${game}`);

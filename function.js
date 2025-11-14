@@ -27,7 +27,7 @@
 // // console.log(addTwoNumbers);
 // console.log(typeof addTwoNumbers);
 
-// Normal function
+// 1) Normal function
 
 // function greet(name) {
 //     return `Hello ${name}`;
@@ -35,14 +35,14 @@
 
 // console.log(greet("Kapil"));
 
-// Function with Default parameters 
+// 2) Function with Default parameters 
 
 // function greetings(name = "Kapil") {
 //     return `Hello ${name}`;
 // }
 // console.log(greetings("Hem Raj"));
 
-// Function Declaration (Named Function)
+// 3) Function Declaration (Named Function)
 
 // function add(a, b) {
 //     return a + b;
@@ -52,7 +52,7 @@
 
 // console.log(`Total : ${result}`); // 9
 
-// Function Expression that creates anonymous (unnamed function) 
+// 4) Function Expression that creates anonymous (unnamed function) 
 
 // const product = function(c, d) {
 //     return c * d;
@@ -62,12 +62,12 @@
 
 // console.log(`Product: ${total}`);
 
-// Arrow Function 
+// 5) Arrow Function 
 
 // const subtraction = (e, f) => e - f; // function declaration
 // console.log(`Result: ${subtraction(2, 4)}`); // function body or implementation
 
-// Function Retruning Nothing (Void Function)
+// 6) Function Retruning Nothing (Void Function)
 
 // function sayHi() {
 //     console.log(`Hi there!`);
@@ -92,4 +92,22 @@
 
 // setTimeout(() => console.log(`Arrow function callback`), 2000);
 
+// function hi(name) {
+//     return name;
+// }
 
+// console.log(hi('Kapil'));
+
+// function hello() {
+//     console.log("Hello"); // Prints only on console
+    
+// }
+// hello()
+
+function district() {
+    return `Bhojpur`; // returning value
+}
+
+let purba = district(); // storing data to variables 
+
+console.log(`Eastern District: ${purba}`); // printing to console
