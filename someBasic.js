@@ -223,9 +223,18 @@
 
 // gameName()
 
-function gameName2() {
-    return "Call of Duty";
+// function gameName2() {
+//     return "Call of Duty";
+// }
+
+// let game = gameName2();
+// console.log(`Popular Game: ${game}`);
+
+function twoNumbers(num1, num2) {
+    return num1 + num2; // returning sum of two numbers
 }
 
-let game = gameName2();
-console.log(`Popular Game: ${game}`);
+let oneNum = 5; // first number for calculation
+let twoNum = 3; // second number for calculation
+let addingTwoNumbers = twoNumbers(oneNum, twoNum); // storing the calculated sum
+console.log(`Total sum of ${oneNum} and ${twoNum} : ${addingTwoNumbers}`); // displaying result
