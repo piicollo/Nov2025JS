@@ -1,23 +1,23 @@
-let score = "Hello ";
+// let score = "Hello ";
 
-console.log(typeof score);
-console.log(typeof(score));
+// console.log(typeof score);
+// console.log(typeof(score));
 
-let valueInNumber = Number(score);
+// let valueInNumber = Number(score);
 
-console.log(score);
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+// console.log(score);
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
 
 // "33" => 33
 // "33abe" => Nan
 // true => 1 ; false => 0
 
-let isLoggedIn = 1;
+// let isLoggedIn = 1;
 
-let booleanIsLoggedIn = Boolean(isLoggedIn);
+// let booleanIsLoggedIn = Boolean(isLoggedIn);
 
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 // 1 => true and 0 => false
 // "" => false
@@ -58,6 +58,20 @@ console.log(booleanIsLoggedIn);
 
 // prefix and postfix 
 
-let gameCounter = 20;
-gameCounter++;
-console.log(gameCounter);
+// let gameCounter = 20;
+// gameCounter++;
+// console.log(gameCounter);
+
+// let number1 = 22;
+// console.log(`First Value without conversion: ${typeof number1}`);
+
+// console.log("\n");
+
+// let beNumber = String(number1)
+// console.log(`Value after conversion: ${typeof beNumber}`);
+
+let isLoggedOut;
+let bool = Boolean(isLoggedOut)
+console.log(bool);
+
+console.log(typeof bool);
