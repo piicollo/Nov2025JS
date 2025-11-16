@@ -230,11 +230,84 @@
 // let game = gameName2();
 // console.log(`Popular Game: ${game}`);
 
-function twoNumbers(num1, num2) {
-    return num1 + num2; // returning sum of two numbers
-}
+// function twoNumbers(num1, num2) {
+//     return num1 + num2; // returning sum of two numbers
+// }
 
-let oneNum = 5; // first number for calculation
-let twoNum = 3; // second number for calculation
-let addingTwoNumbers = twoNumbers(oneNum, twoNum); // storing the calculated sum
-console.log(`Total sum of ${oneNum} and ${twoNum} : ${addingTwoNumbers}`); // displaying result
+// let oneNum = 5; // first number for calculation
+// let twoNum = 3; // second number for calculation
+// let addingTwoNumbers = twoNumbers(oneNum, twoNum); // storing the calculated sum
+// console.log(`Total sum of ${oneNum} and ${twoNum} : ${addingTwoNumbers}`); // displaying result
+
+// function multiply(a, b) {
+//     return a * b;
+// }
+
+// let product = multiply(2, 3)
+// console.log(`Product of two numbers: ${product}`);
+
+// function userName(uName = "kapil1997") {
+//     return `Username: ${uName}`;
+// }
+
+// console.log(userName("hemja123"));
+
+// function userTwo(usernameTwo = "Khanal123") {
+//     return (usernameTwo);
+// }
+
+// let username2 = userTwo();
+// console.log(`Username: ${username2}`);
+
+// directly calling function
+// function sum(a = 2, b = 3) {
+//     return a + b;
+// }
+// console.log(sum())
+
+// Storing data from variables and using the result
+
+// function product(num1 = 22, num2 = 2) {
+//     return num1 * num2;
+// }
+
+// let total = product()
+
+// console.log("Total:", total);
+
+// const sum = function(num, num1) {
+//     return num + num1;
+// }
+//  let total = sum(2, 3);
+//  console.log("Total: ", total);
+ 
+//  const greet = function() {
+//     return `Hello there!`;
+//  }
+
+//  let hello = greet()
+//  console.log(hello);
+ 
+// Arrow function examle 1
+// const addTwoNums = (a, b) => a + b;
+// console.log(`Sum of two numbers: ${addTwoNums(2, 5)}`);
+
+
+// Arrow function example 2 (Basis Arrow function
+// const adding = (num1, num2) => {
+//     return num1 + num2;
+// }
+// let sumOfNumbers = adding(2, 3)
+// console.log(`Sum of two numbers: ${sumOfNumbers}`);
+
+// Arrow function example 3 (Implicit Return (One-Line))
+// const subTwoNums = (nums1, nums2) => nums1 - nums2;
+// let subs = subTwoNums(2, 21)
+// console.log(`Subtraction of two numbers: ${subs}`);
+
+// const greetings = () => `Hello`;
+// console.log(greetings());
+
+let userName = (userOne, userTwo) => userOne + " " + userTwo;
+console.log(`Facebook usernames: ${userName("Hema123", "Hem224")}`);
+
