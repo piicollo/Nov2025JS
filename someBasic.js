@@ -308,6 +308,30 @@
 // const greetings = () => `Hello`;
 // console.log(greetings());
 
-let userName = (userOne, userTwo) => userOne + " " + userTwo;
-console.log(`Facebook usernames: ${userName("Hema123", "Hem224")}`);
+// let userName = (userOne, userTwo) => userOne + " " + userTwo;
+// console.log(`Facebook usernames: ${userName("Hema123", "Hem224")}`);
+
+// const userThree = (UserThreeName) => "nepal123";
+// console.log(userThree());
+
+// function hello(okay) {
+//     return `Greetings ${okay}`;
+// }
+
+// let sayHello = hello("John Deo")
+// console.log(sayHello);
+
+// function game(gameName3 = "COD") {
+//     return `Game name: ${gameName3}`;
+// }
+// console.log(game());
+
+// let newGame = (gameOne) => "PUBG";
+// console.log("Game: ", newGame());
+
+// let gameThree  = (threeGame) => `Game: ${threeGame}`;
+// console.log(gameThree("ARC Raiders"));
+
+// let userName = (userFour) => userFour;
+// console.log(userName("user244"));
 
